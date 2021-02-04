@@ -10,8 +10,11 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Navbar />
-
+        
+          <Navbar />
+        
+        
+        <div className='body'>
         <Switch>
           <Route path='/' exact>
             <HomePage />
@@ -21,7 +24,7 @@ function App() {
           </Route>
           
           </Switch>
-
+        </div>
       </Router>
 
     </div>
