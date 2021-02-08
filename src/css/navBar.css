@@ -9,12 +9,11 @@
     margin: 0px;
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: center;
-    flex-shrink: unset;
     font-size: calc(10px + 2vmin);
     color: white;
     list-style-type: none;
+    padding-left: 0px;
 }
 
 .header a {

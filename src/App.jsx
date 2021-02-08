@@ -6,6 +6,8 @@ import './css/App.css';
 import HomePage from './components/home/HomePage';
 import Navbar from './components/navbar/Navbar';
 import About from './components/aboutMe/About';
+import Tanzania from './components/projects/Tanzania';
+
 function App() {
   return (
     <div className="App">
@@ -15,14 +17,16 @@ function App() {
         
         
         <div className='body'>
-        <Switch>
-          <Route path='/' exact>
-            <HomePage />
-          </Route>
-          <Route path='/About-me' exact>
-            <About />
-          </Route>
-          
+          <Switch>
+            <Route path='/' exact>
+              <HomePage />
+            </Route>
+            <Route path='/About-me' exact>
+              <About />
+            </Route>
+            <Route path='/Tanzania' exact>
+              <Tanzania />
+            </Route>
           </Switch>
         </div>
       </Router>
