@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Tanzania_3D_MAX_4 from '../../assets/tanzania/Tanzania_3D_MAX_4.JPG';
-import table from '../../assets/table.png'
+
 import '../../css/projectCard.css';
 function ProjectCard() {
     return (
