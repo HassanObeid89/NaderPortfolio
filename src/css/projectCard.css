@@ -34,7 +34,9 @@
     box-shadow:5px 5px 16px rgba(163, 177, 198, 0.5);
 }
 
-
+img {
+    object-fit: fill;
+}
 
 .view_button {
     width: 100%;
@@ -47,3 +49,9 @@
     font-weight: bolder;
     font-size: medium;
 }
+
+/* .slider {
+    height: 80px;
+    width: 0px;
+} */
+
