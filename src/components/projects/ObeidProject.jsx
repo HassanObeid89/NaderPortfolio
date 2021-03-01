@@ -35,13 +35,13 @@ function ObeidProject() {
     );
     return (
         <div >
-            <h2>Obeid Project</h2>
+            
             <div className='detail_container'>
                 {obeidSlider}
 
                 <div className='details'>
                     <p>
-                        <h3>URBAN MODERN</h3>
+                        <h3>Obeid Project, URBAN MODERN</h3>
                         For the ultimate in cosmopolitan living, 
                         Urban Modern design is perfect for elevated city 
                         life as it marries the best of deluxe contemporary, 

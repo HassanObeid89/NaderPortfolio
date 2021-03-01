@@ -9,6 +9,7 @@ import About from './components/aboutMe/About';
 import Tanzania from './components/projects/Tanzania';
 import AliSannan from './components/projects/AliSannan';
 import ObeidProject from './components/projects/ObeidProject';
+import Villa from './components/projects/Villa';
 
 
 function App() {
@@ -35,6 +36,9 @@ function App() {
             </Route>
             <Route path='/Obeid' exact>
               <ObeidProject />
+            </Route>
+            <Route path='/Villa' exact>
+              <Villa />
             </Route>
           </Switch>
         </div>
