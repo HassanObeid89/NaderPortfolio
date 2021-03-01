@@ -5,6 +5,7 @@ import home_intro from '../../assets/home_intro.jpg'
 import SannanProjectCard from './SannanProjectCard';
 import ObeidProjectCard from './ObeidProjectCard';
 import LebaneseVillaCard from './LebaneseVillaCard';
+import CopyCenterCard from './CopyCenterCard';
 
 function HomePage() {
     return (
@@ -14,6 +15,7 @@ function HomePage() {
             <SannanProjectCard />
             <ObeidProjectCard />
             <LebaneseVillaCard />
+            <CopyCenterCard />
         </div>
     )
 }

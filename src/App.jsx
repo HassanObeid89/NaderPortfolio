@@ -10,6 +10,7 @@ import Tanzania from './components/projects/Tanzania';
 import AliSannan from './components/projects/AliSannan';
 import ObeidProject from './components/projects/ObeidProject';
 import Villa from './components/projects/Villa';
+import CopyCenter from './components/projects/CopyCenter';
 
 
 function App() {
@@ -39,6 +40,9 @@ function App() {
             </Route>
             <Route path='/Villa' exact>
               <Villa />
+            </Route>
+            <Route path='/CopyCenter' exact>
+              <CopyCenter />
             </Route>
           </Switch>
         </div>
