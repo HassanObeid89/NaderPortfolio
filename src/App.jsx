@@ -7,6 +7,7 @@ import HomePage from './components/home/HomePage';
 import Navbar from './components/navbar/Navbar';
 import About from './components/aboutMe/About';
 import Tanzania from './components/projects/Tanzania';
+import AliSannan from './components/projects/AliSannan';
 
 function App() {
   return (
@@ -26,6 +27,9 @@ function App() {
             </Route>
             <Route path='/Tanzania' exact>
               <Tanzania />
+            </Route>
+            <Route path='/Sannan' exact>
+              <AliSannan />
             </Route>
           </Switch>
         </div>
