@@ -4,6 +4,8 @@ import TanzaniaProjectCard from './TanzaniaProjectCard';
 import home_intro from '../../assets/home_intro.jpg'
 import SannanProjectCard from './SannanProjectCard';
 import ObeidProjectCard from './ObeidProjectCard';
+import LebaneseVillaCard from './LebaneseVillaCard';
+
 function HomePage() {
     return (
         <div>
@@ -11,6 +13,7 @@ function HomePage() {
             <TanzaniaProjectCard />
             <SannanProjectCard />
             <ObeidProjectCard />
+            <LebaneseVillaCard />
         </div>
     )
 }

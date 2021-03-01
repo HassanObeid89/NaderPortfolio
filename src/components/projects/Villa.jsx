@@ -6,25 +6,28 @@ import CoreStyles from 'react-awesome-slider/src/core/styles.scss';
 import AnimationStyles from 'react-awesome-slider/src/styled/cube-animation/cube-animation.scss';
 
 // Images
-import Sannan1 from '../../assets/aliSannanProject/Lebanese_Kitchen_1.jpeg'
-import Sannan2 from '../../assets/aliSannanProject/Lebanese_Kitchen_2.jpeg'
-import Sannan3 from '../../assets/aliSannanProject/Lebanese_Kitchen_3.jpeg'
-import Sannan4 from '../../assets/aliSannanProject/Lebanese_Kitchen_4.jpeg'
+import villa1 from '../../assets/lebaneseVilla/Lebanese_villa_1.jpeg'
+import villa2 from '../../assets/lebaneseVilla/Lebanese_villa_2.jpeg'
+import villa3 from '../../assets/lebaneseVilla/Lebanese_villa_3.jpeg'
+import villa4 from '../../assets/lebaneseVilla/Lebanese_villa_4.jpg'
+import villa5 from '../../assets/lebaneseVilla/Lebanese_villa_5.jpg'
 
 
 // CSS
 import '../../css/projectCard.scss'
 
-function AliSannan() {
-    const sannanSlider = (
+function Villa() {
+    const villaSlider = (
         <AwesomeSlider
             animation='cubeAnimation'
             cssModule={[CoreStyles, AnimationStyles]}
         >
-            <div data-src={Sannan1} />
-            <div data-src={Sannan2} />
-            <div data-src={Sannan3} />
-            <div data-src={Sannan4} />
+            <div data-src={villa1} />
+            <div data-src={villa2} />
+            <div data-src={villa3} />
+            <div data-src={villa4} />
+            <div data-src={villa5} />
+            
         </AwesomeSlider>
 
     );
@@ -32,12 +35,11 @@ function AliSannan() {
         <div >
             
             <div className='detail_container'>
-                {sannanSlider}
+                {villaSlider}
 
                 <div className='details'>
-                    
                     <p>
-                        <h3>Sannan Project, Traditional</h3>
+                        <h3>Villa Project, Traditional</h3>
                         
                         When it comes to interior design styles, 
                         almost everything is rooted in 
@@ -62,4 +64,4 @@ function AliSannan() {
     )
 }
 
-export default AliSannan
+export default Villa
