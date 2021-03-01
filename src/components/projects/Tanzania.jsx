@@ -29,10 +29,12 @@ function Tanzania() {
     );
     return (
         <div >
+            <h2>Tanzania Project</h2>
             <div className='detail_container'>
                 {slider}
 
             <div className='details'>
+                
                 <p>
                         Though people often tend to confuse modern
                         interior design styles with contemporary
