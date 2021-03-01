@@ -8,6 +8,8 @@ import Navbar from './components/navbar/Navbar';
 import About from './components/aboutMe/About';
 import Tanzania from './components/projects/Tanzania';
 import AliSannan from './components/projects/AliSannan';
+import ObeidProject from './components/projects/ObeidProject';
+
 
 function App() {
   return (
@@ -30,6 +32,9 @@ function App() {
             </Route>
             <Route path='/Sannan' exact>
               <AliSannan />
+            </Route>
+            <Route path='/Obeid' exact>
+              <ObeidProject />
             </Route>
           </Switch>
         </div>
