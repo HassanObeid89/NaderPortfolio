@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../../css/navBar.css';
+import { ImHome } from 'react-icons/im'
+
 
 function Navbar() {
     return (
@@ -8,15 +10,15 @@ function Navbar() {
             <ul>
                 <li>
                     <Link to='/'>
-                        Home
+                        <ImHome size='38px'/>
                     </Link>
                 </li>
             
-                <li>
+                {/* <li>
                     <Link to='/About-me'>
                         About
                     </Link>
-                </li>
+                </li> */}
             </ul>
         </div>
     )

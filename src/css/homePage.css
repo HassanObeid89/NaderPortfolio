@@ -1,4 +1,34 @@
-.intro_image {
+.image_container img {
     height: 40%;
     width: 100%;
+}
+@media screen and (min-width: 600px){
+.homeContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+
+}
+
+}
+
+@media screen and (min-width: 900px){
+.homeContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+
+}
+.image_container {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+}
+.image_container img {
+    display: flex;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+    
+}
+
 }
