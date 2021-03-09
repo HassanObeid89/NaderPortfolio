@@ -7,15 +7,22 @@ import ObeidProjectCard from './ObeidProjectCard';
 import LebaneseVillaCard from './LebaneseVillaCard';
 import CopyCenterCard from './CopyCenterCard';
 
+
 function HomePage() {
     return (
-        <div>
-            <img className='intro_image' src={home_intro} alt=""/>
-            <TanzaniaProjectCard />
-            <SannanProjectCard />
-            <ObeidProjectCard />
-            <LebaneseVillaCard />
-            <CopyCenterCard />
+        <div >
+            <div className='image_container'>
+               <img  src={home_intro} alt=""/> 
+            </div>
+            
+            <div className="homeContainer">
+                <TanzaniaProjectCard />
+                <SannanProjectCard />
+                <ObeidProjectCard />
+                <LebaneseVillaCard />
+                <CopyCenterCard />
+            </div>
+            
         </div>
     )
 }
